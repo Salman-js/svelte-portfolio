@@ -10,7 +10,7 @@
       <span class="name">Salman Mohammed.</span>
     </div>
     <div class="w-full mt-4">
-      <span class="work"> I design stuff for the web. </span>
+      <span class="work"> I build stuff for the web. </span>
     </div>
     <div class="w-full flex flex-row justify-between lg:mt-12 mt-6 ">
       <a href="#works">

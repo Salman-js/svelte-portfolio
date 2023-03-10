@@ -7,6 +7,9 @@
   import TopNav from '../Components/TopNav.svelte';
 </script>
 
+<svelte:head>
+  <title>Salman</title>
+</svelte:head>
 <div class="App">
   <TopNav />
   <Hero />
