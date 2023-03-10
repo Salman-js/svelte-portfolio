@@ -62,7 +62,7 @@ body {
   font-family: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
 }
 .App {
-  @apply w-screen bg-[#10101a] flex flex-col items-center lg:items-baseline h-screen;
+  @apply w-screen bg-[#10101a] flex flex-col items-center lg:items-baseline;
 }
 .smooth {
   transition: all ease-in-out 250ms;
