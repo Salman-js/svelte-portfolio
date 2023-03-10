@@ -1,5 +1,6 @@
 <script>
   import FooterSvg from '../assets/footer.svg';
+  import Typewriter from 'svelte-typewriter';
 </script>
 
 <div class="hero">
