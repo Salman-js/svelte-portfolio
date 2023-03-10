@@ -1,2 +1,10 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+  import '../app.css';
+  import Hero from '../Components/Hero.svelte';
+  import TopNav from '../Components/TopNav.svelte';
+</script>
+
+<div class="App">
+  <TopNav />
+  <Hero />
+</div>
