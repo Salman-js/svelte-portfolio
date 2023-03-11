@@ -1,6 +1,7 @@
 <script>
   import FooterSvg from '../assets/footer.svg';
-  import Typewriter from 'svelte-typewriter';
+  import { Button, Icon } from 'svelte-materialify';
+  import { mdiGithub, mdiLinkedin, mdiTwitter } from '@mdi/js';
 </script>
 
 <div class="hero">
@@ -19,7 +20,23 @@
           <div class="view-btn-border" />
         </div>
       </a>
-      <div class="flex flex-row pr-10" />
+      <div class="flex flex-row pr-10">
+        <div class="my-auto">
+          <Button icon>
+            <Icon path={mdiGithub} class="text-gray-200" />
+          </Button>
+        </div>
+        <div class="my-auto">
+          <Button icon>
+            <Icon path={mdiLinkedin} class="text-gray-200" />
+          </Button>
+        </div>
+        <div class="my-auto">
+          <Button icon>
+            <Icon path={mdiTwitter} class="text-gray-200" />
+          </Button>
+        </div>
+      </div>
     </div>
   </div>
   <div class="w-full absolute bottom-0 flex justify-center">
