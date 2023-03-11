@@ -13,7 +13,7 @@
       </div>
       <a href="mailto:salmanmoh.eth@gmail.com" class="ml-6 lg:mt-0 mt-4">
         <div
-          class="rounded-sm p-4 border border-[#e7ab54] flex flex-row justify-center"
+          class="rounded-md p-4 border border-[#e7ab54] flex flex-row justify-center"
         >
           <span class="my-auto">
             <img

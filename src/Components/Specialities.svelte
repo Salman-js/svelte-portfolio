@@ -18,6 +18,10 @@
     },
     {
       title: 'Title',
+      image: 'https://svelte.dev/favicon.png',
+    },
+    {
+      title: 'Title',
       image: 'https://nodejs.org/static/images/favicons/favicon.png',
     },
     {
