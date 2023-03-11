@@ -23,17 +23,26 @@
       <div class="flex flex-row pr-10">
         <div class="my-auto">
           <Button icon>
-            <Icon path={mdiGithub} class="text-gray-200" />
+            <Icon
+              path={mdiGithub}
+              class="text-white opacity-40 hover:opacity-100"
+            />
           </Button>
         </div>
         <div class="my-auto">
           <Button icon>
-            <Icon path={mdiLinkedin} class="text-gray-200" />
+            <Icon
+              path={mdiLinkedin}
+              class="text-white opacity-40 hover:opacity-100"
+            />
           </Button>
         </div>
         <div class="my-auto">
           <Button icon>
-            <Icon path={mdiTwitter} class="text-gray-200" />
+            <Icon
+              path={mdiTwitter}
+              class="text-white opacity-40 hover:opacity-100"
+            />
           </Button>
         </div>
       </div>

@@ -1,4 +1,6 @@
 <script>
+  import { Button, Icon } from 'svelte-materialify';
+  import { mdiGithub, mdiOpenInNew } from '@mdi/js';
   import Design1 from '../assets/design1.svg';
   const stacks = [
     { title: 'Title', image: 'https://reactjs.org/favicon.ico' },
@@ -42,8 +44,26 @@
         </p>
       </div>
     </div>
-    <div class="flex flex-row w-full justify-between">
-      <div class="my-auto flex flex-row" />
+    <div class="flex flex-row w-full justify-between items-start">
+      <div class="my-auto flex flex-row">
+        <div class="my-auto ml-3">
+          <Button icon>
+            <Icon
+              path={mdiGithub}
+              class="text-white opacity-40 hover:opacity-100"
+              st
+            />
+          </Button>
+        </div>
+        <div class="my-auto">
+          <Button icon>
+            <Icon
+              path={mdiOpenInNew}
+              class="text-white opacity-40 hover:opacity-100"
+            />
+          </Button>
+        </div>
+      </div>
       <img src={Design1} alt="" class="lg:w-20 w-10" />
     </div>
   </div>
