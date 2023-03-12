@@ -16,7 +16,7 @@
       class="menu"
       closeOnClick
     >
-      <div class="my-auto" slot="activator">
+      <div class="my-auto cursor-pointer" slot="activator">
         <svg
           width="57"
           height="20"

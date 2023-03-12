@@ -1,7 +1,7 @@
 <script>
-  import FooterSvg from '../assets/footer.svg';
   import { Button, Icon } from 'svelte-materialify';
   import { mdiGithub, mdiLinkedin, mdiTwitter } from '@mdi/js';
+  import Footer from '../assets/Footer.svelte';
 </script>
 
 <div class="hero">
@@ -49,6 +49,6 @@
     </div>
   </div>
   <div class="w-full absolute bottom-0 flex justify-center">
-    <img src={FooterSvg} alt="" />
+    <Footer />
   </div>
 </div>

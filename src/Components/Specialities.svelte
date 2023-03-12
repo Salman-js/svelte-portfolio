@@ -1,5 +1,5 @@
 <script>
-  import FooterSvg from '../assets/footer.svg';
+  import Footer from '../assets/Footer.svelte';
   import SpecialityItem from './SpecialityItem.svelte';
   const stacks = [
     { title: 'Title', image: 'https://reactjs.org/favicon.ico' },
@@ -85,6 +85,6 @@
     </div>
   </div>
   <div class="w-full flex justify-center">
-    <img src={FooterSvg} alt="" />
+    <Footer />
   </div>
 </div>

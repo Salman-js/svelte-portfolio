@@ -1,6 +1,6 @@
 <script>
+  import Footer from '../assets/Footer.svelte';
   import ProjectItem from './ProjectItem.svelte';
-  import FooterSvg from '../assets/footer.svg';
 </script>
 
 <div class="projects-container">
@@ -20,6 +20,6 @@
     </div>
   </div>
   <div class="w-full flex justify-center">
-    <img src={FooterSvg} alt="" />
+    <Footer />
   </div>
 </div>
