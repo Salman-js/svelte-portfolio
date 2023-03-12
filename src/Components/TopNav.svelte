@@ -1,11 +1,5 @@
 <script>
-  import {
-    Button,
-    List,
-    ListItem,
-    Menu,
-    MaterialApp,
-  } from 'svelte-materialify';
+  import { Button, List, ListItem, Menu } from 'svelte-materialify';
   import { scale, slide } from 'svelte/transition';
 </script>
 
