@@ -28,7 +28,6 @@
 	"dependencies": {
 		"@mdi/js": "^7.1.96",
 		"bootstrap": "^5.2.3",
-		"svelte-materialify": "^0.3.11",
-		"svelte-typewriter": "^3.1.4"
+		"svelte-materialify": "^0.3.11"
 	}
 }
